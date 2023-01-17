@@ -1,0 +1,57 @@
+.contador {
+    width: 350px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 15px;
+    border: 2px solid green;
+    margin-top: 2rem;
+}
+
+.contador__overview {
+    width: 80%;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    border: 2px solid green;
+    padding: 0 1rem;
+    border-radius: 15px;
+}
+
+.contador__message {
+    font-size: 2rem;
+    font-style: italic;
+}
+
+.btn__actions {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.btn {
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    text-align: center;
+    border: 2px solid white;
+    cursor: pointer;
+    color: white;
+    border-radius: 15px;
+}
+
+.btn__actions .btn__actions-incrementar {
+    background-color: green;
+}
+
+.btn__actions .btn__actions-decrementar {
+    background-color: red;
+}
+
+.btn__actions .btn__actions-reset {
+    background-color: cornflowerblue;
+}

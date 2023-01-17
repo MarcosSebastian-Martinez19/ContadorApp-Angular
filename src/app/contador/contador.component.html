@@ -1,0 +1,13 @@
+<div class="contador">
+    <div class="contador__overview">
+        <span>{{ numero }}</span>
+    </div>
+    <div class="contador__message">
+        Límite 25
+    </div>
+    <div class="btn__actions">
+        <button class="btn btn__actions-incrementar" (click)="incrementar()">Aumentar</button>
+        <button class="btn btn__actions-decrementar" (click)="decrementar()">Disminuir</button>
+        <button class="btn btn__actions-reset" (click)="reset()">Reset</button>
+    </div>
+</div>
